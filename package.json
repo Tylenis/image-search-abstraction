@@ -1,0 +1,17 @@
+{
+  "name": "image-search-abstraction",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice project for the Free Code Camp curriculum.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nerijus",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.3",
+    "request": "^2.72.0"
+  }
+}
