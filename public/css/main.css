@@ -1,0 +1,25 @@
+.main-div {
+	margin-top: 30px;
+	color: #3092B6;
+}
+div {
+    margin: 10px 10px;
+}
+samp {
+    background-color: white;
+    color: red;
+}
+.my-logo {
+    color: #CE3535;
+}
+.my-logo:hover {
+    color: #CE3535;
+}
+.my-title {
+    border-bottom: 1px solid #3092B6;
+    padding-bottom: 20px;
+}
+.my-footer {
+    margin-top: 20px;
+    border-top: 1px solid #3092B6;
+}

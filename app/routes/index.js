@@ -6,7 +6,7 @@ var handler = new dbhandler();
 module.exports = function (app, URL, API_KEY, SEARCH_ENGINE_ID) {
 	app.route("/")
 		.get(function (req, res) {
-			res.send("labas");
+			res.sendFile(process.cwd()+"/public/index.html");
 		});
 	app.route("/api/imagesearch/:id")
 		.get(function(req, res){

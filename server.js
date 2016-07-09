@@ -10,6 +10,8 @@ var routes = require("./app/routes/index.js");
 
 var app = express();
 
+app.use("/public", express.static(process.cwd() + "/public"));
+
 mongoose.connect(process.env.MONGO_URI);
 
 var db = mongoose.connection;
