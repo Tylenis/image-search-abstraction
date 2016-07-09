@@ -1,7 +1,7 @@
 {
   "name": "image-search-abstraction",
   "version": "1.0.0",
-  "description": "Timestamp Microservice project for the Free Code Camp curriculum.",
+  "description": "Image Search Abstraction Layer project for the Free Code Camp curriculum.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
